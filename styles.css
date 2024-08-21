@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz_HyiSZ2BxameCrGhNzLNc0Cx-wEo_BQmCV9B-upvtvfR7VuGfVC19R0qtHXHpLlkPixhtmS9IKGNP6X79X0vZTMC7zfSeh_w-DoUKsMGLcrMKr9jyOhloPex25QzE47q8nA7qKKx7rhb/s1600/1744e410e6d87508cf78958f208a796d.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  margin: 30px 0;
+  display: flex;
+  gap: 40px;
+
+}
+
+
+button {
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rock{
+    background-color:#a200ff ;
+}
+
+#paper{
+    background-color:#9ee01a ;
+}
+
+#scissors{
+    background-color:#1192dd ;
+}
+
+p{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.your-score span {
+    font-weight: bold;
+    color:rgb(238, 234, 0) ;
+}
+
+.machine-score span {
+    font-weight: bold;
+    color:rgb(255, 30, 0);
+}
